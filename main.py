@@ -42,10 +42,6 @@ class RextesterApp(App):
     title = "Rextester Droid"
     root = None
 
-    def on_float_click(self, instance_btn):
-        if instance_btn.icon == 'code-tags':
-            self.root.current = "language"
-
     def go_home(self, *args):
         self.root.current = "home"
 
@@ -56,9 +52,6 @@ class RextesterApp(App):
 
     def on_stop(self):
         self.root.stop.set()
-
-    def print_icon(self):
-        print(self.root.screens[0].ids.floating_icon.icon)
 
     @run_async
     def execute(self, *args):

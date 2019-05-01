@@ -97,35 +97,35 @@ ScreenManagement:
                     icon: "assets/language-icons/language-csharp.png"
                     on_release: root.manager.LANGUAGE = 1
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "VB.NET"
                     icon: "assets/language-icons/language-dot-net.png"
                     on_release: root.manager.LANGUAGE = 2
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "F#"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 3
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Java"
                     icon: "assets/language-icons/language-java.png"
                     on_release: root.manager.LANGUAGE = 4
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Python"
                     icon: "assets/language-icons/language-python.png"
                     on_release: root.manager.LANGUAGE = 5
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "C (gcc)"
@@ -133,7 +133,7 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 6
                     on_release: root.manager.COMPILER_ARGS = "-Wall -std=gnu99 -O2 -o a.out source_file.c"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "C++ (gcc)"
@@ -141,21 +141,21 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 7
                     on_release: root.manager.COMPILER_ARGS = "-Wall -std=c++14 -O2 -o a.out source_file.cpp"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Php"
                     icon: "assets/language-icons/language-php.png"
                     on_release: root.manager.LANGUAGE = 8
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Pascal"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 9
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Objective-C"
@@ -163,7 +163,7 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 10
                     on_release: root.manager.COMPILER_ARGS = "MMD -MP -DGNUSTEP -DGNUSTEP_BASE_LIBRARY=1 -DGNU_GUI_LIBRARY=1 -DGNU_RUNTIME=1 -DGNUSTEP_BASE_LIBRARY=1 -fno-strict-aliasing -fexceptions -fobjc-exceptions -D_NATIVE_OBJC_EXCEPTIONS -pthread -fPIC -Wall -DGSWARN -DGSDIAGNOSE -Wno-import -g -O2 -fgnu-runtime -fconstant-string-class=NSConstantString -I. -I /usr/include/GNUstep -I/usr/include/GNUstep -o a.out source_file.m -lobjc -lgnustep-base"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Haskell"
@@ -171,63 +171,63 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 11
                     on_release: root.manager.COMPILER_ARGS = "-o a.out source_file.go"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Ruby"
                     icon: "assets/language-icons/language-ruby.png"
                     on_release: root.manager.LANGUAGE = 12
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Perl"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 13
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Lua"
                     icon: "assets/language-icons/language-lua.png"
                     on_release: root.manager.LANGUAGE = 14
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Nasm"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 15
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Sql Server"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 16
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Javascript"
                     icon: "assets/language-icons/language-javascript.png"
                     on_release: root.manager.LANGUAGE = 17
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Lisp"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 18
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Prolog"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 19
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Go"
@@ -235,42 +235,42 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 20
                     on_release: root.manager.COMPILER_ARGS = "-o a.out source_file.go"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Scala"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 21
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Scheme"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 22
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Node.js"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 23
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Python 3"
                     icon: "assets/language-icons/language-python.png"
                     on_release: root.manager.LANGUAGE = 24
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Octave"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 25
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "C (clang)"
@@ -278,7 +278,7 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 26
                     on_release: root.manager.COMPILER_ARGS = "-Wall -std=gnu99 -O2 -o a.out source_file.c"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "C++ (clang)"
@@ -286,7 +286,7 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 27
                     on_release: root.manager.COMPILER_ARGS = "-Wall -std=c++14 -stdlib=libc++ -O2 -o a.out source_file.cpp"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "C++ (vc++)"
@@ -294,7 +294,7 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 28
                     on_release: root.manager.COMPILER_ARGS = "source_file.cpp -o a.exe /EHsc /MD /I C:\boost_1_60_0 /link /LIBPATH:C:\boost_1_60_0\stage\lib"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "C (vc)"
@@ -302,7 +302,7 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 29
                     on_release: root.manager.COMPILER_ARGS = "source_file.c -o a.exe"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "D"
@@ -310,102 +310,102 @@ ScreenManagement:
                     on_release: root.manager.LANGUAGE = 30
                     on_release: root.manager.COMPILER_ARGS = "source_file.d -ofa.out"
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "R"
                     icon: "assets/language-icons/language-r.png"
                     on_release: root.manager.LANGUAGE = 31
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Tcl"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 32
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "MySQL"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 33
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "PostgreSQL"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 34
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Oracle"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 35
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Swift"
                     icon: "assets/language-icons/language-swift.png"
                     on_release: root.manager.LANGUAGE = 37
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Bash"
                     icon: "assets/language-icons/language-bash.png"
                     on_release: root.manager.LANGUAGE = 38
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Ada"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 39
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Erlang"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 40
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Elixir"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 41
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Ocaml"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 42
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Kotlin"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 43
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Brainf***"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 44
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
 
                 LanguageButton:
                     text: "Fortran"
                     icon: "assets/language-icons/language-placeholder.png"
                     on_release: root.manager.LANGUAGE = 45
                     on_release: root.manager.screens[0].ids.floating_icon.icon = self.icon
-                    on_release: root.manager.current = "home"
+                    on_release: app.go_home()
