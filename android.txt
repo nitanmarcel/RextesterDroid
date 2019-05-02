@@ -1,0 +1,3 @@
+title=Rextester Droid
+author=Nitan Alexandru Marcel
+orientation=portrait
