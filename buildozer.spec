@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = kivy==1.10.1, git+https://github.com/HeaTTheatR/KivyMD.git, Pillow, requests
+requirements = kivy==master, git+https://github.com/HeaTTheatR/KivyMD.git, Pillow, requests
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -157,7 +157,7 @@ fullscreen = 0
 #android.add_activites = com.example.ExampleActivity
 
 # (str) python-for-android branch to use, defaults to master
-#p4a.branch = master
+p4a.branch = master
 
 # (str) OUYA Console category. Should be one of GAME or APP
 # If you leave this blank, OUYA support will not be enabled
