@@ -4,7 +4,7 @@
 title = Rextester Droid
 
 # (str) Package name
-package.name = rexteserdroid
+package.name = rexdroid
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = kivy==1.10.1, Pillow, kivymd, git+https://github.com/heattheatr/kivymd.git
+requirements = kivy==1.10.1, Pillow, kivymd, requests, git+https://github.com/heattheatr/kivymd.git
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
