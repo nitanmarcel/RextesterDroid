@@ -100,15 +100,15 @@ class RextesterApp(App):
             return
 
         if result:
-            result_field.foreground_color = (0, 1, 0, 1)
+            result_field.disabled_foreground_color = (0, 1, 0, 1)
             result_field.text = result
 
         elif warnings:
-            result_field.foreground_color = (240, 255, 0, 1)
+            result_field.disabled_foreground_color = (240, 255, 0, 1)
             result_field.text = warnings
 
         elif errors:
-            result_field.foreground_color = (255, 0, 0, 1)
+            result_field.disabled_foreground_color = (255, 0, 0, 1)
             result_field.text = errors
 
         if stats:
