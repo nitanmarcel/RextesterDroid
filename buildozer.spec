@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = kivy==1.10.1, Pillow, kivymd, requests, git+https://github.com/heattheatr/kivymd.git
+requirements = kivy==1.10.1, git+https://github.com/HeaTTheatR/KivyMD.git, Pillow, requests
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -50,7 +50,7 @@ requirements = kivy==1.10.1, Pillow, kivymd, requests, git+https://github.com/he
 icon.filename = %(source.dir)s/assets/icon.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = portrait
+orientation = all
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
