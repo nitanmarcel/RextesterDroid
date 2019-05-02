@@ -7,7 +7,7 @@ title = Rextester Droid
 package.name = rexdroid
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = com.alex
 
 # (str) Source code where the main.py live
 source.dir = .
