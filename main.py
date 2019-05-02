@@ -1,7 +1,15 @@
+import os
 import threading
 from functools import wraps
 
 import requests
+
+
+# Enviroment variables. Required before importing kivy
+
+os.environ["KIVY_CLIPBOARD"] = "android"
+
+
 from kivy.app import App
 from kivy.core.window import Window
 from kivy.lang import Builder
@@ -92,15 +100,15 @@ class RextesterApp(App):
             return
 
         if result:
-            result_field.disabled_foreground_color = (0, 1, 0, 1)
+            result_field.foreground_color = (0, 1, 0, 1)
             result_field.text = result
 
         elif warnings:
-            result_field.disabled_foreground_color = (240, 255, 0, 1)
+            result_field.foreground_color = (240, 255, 0, 1)
             result_field.text = warnings
 
         elif errors:
-            result_field.disabled_foreground_color = (255, 0, 0, 1)
+            result_field.foreground_color = (255, 0, 0, 1)
             result_field.text = errors
 
         if stats:

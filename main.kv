@@ -58,10 +58,10 @@ ScreenManagement:
         MDTextFieldRect:
             id: result_field
             text: "Waiting for output..."
-            disabled: True
+            readonly: True
             font_name: "assets/fonts/NotoSans-Regular.ttf"
             background_color: app.theme_cls.primary_color
-            disabled_foreground_color: (1,1,1,1)
+            foreground_color: (1,1,1,1)
 
     FloatLayout:
         callback: lambda x: None
